@@ -1,0 +1,53 @@
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+input, select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  background-color: #BE773B;
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: brown;
+}
+form {
+  background-color: transparent;
+  background-position-x: center;
+  border: 3px solid black;
+  border-radius: 19px;
+  padding: 40px;
+  height: 500px;
+  width: 450px;
+  margin-top: 100px;
+  box-shadow: #E3B654;
+  margin-left: 400px;
+  cursor: pointer;
+}
+
+form:hover{
+  color: #C18A14;
+  box-shadow: 0 5px 50px white  inset,0 5px 50px 0  #000,
+  0 5px 50px 0  #E87837 inset,0 5px 50px 0  #000;}

@@ -1,0 +1,46 @@
+body{
+    background-image: url(../aboutusBACK.jpg);
+    background-size: cover;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  p {
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  .section:last-child {
+    margin-bottom: 0;
+  }
+  
+  .contact-info {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .contact-icon {
+    margin-right: 10px;
+  }
+  
+  .contact-link {
+    color: #333;
+    text-decoration: none;
+  }

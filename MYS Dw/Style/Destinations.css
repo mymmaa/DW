@@ -1,0 +1,41 @@
+body{
+    background-image: url(../Destina.jpg);
+    background-size: cover;
+}
+.Destinations {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 30px 10%;
+    height: calc(100vh - 307px);
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.card > img {
+    height: 260px;
+    width: 200px;
+}
+
+
+
+.card {
+    display: flex;
+}
+
+.card > nav > h1 {
+    text-align: left;
+    font-size: 30px;
+}
+
+.card > nav > p {
+    font-size: 12px;
+}
+
+.card > nav {
+    margin-left: 10px;
+}

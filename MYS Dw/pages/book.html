@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Style/menu_footer.css">
+    <link rel="stylesheet" href="../Style/book.css">
+    <title>Travel Agency</title>
+</head>
+  <body>
+    <header>
+      <h2 class="logo">Travel</h2>
+      <div class="menu">
+          <ul>
+              <li><a href='../index.html' id="In_Page">Home</a></li>
+              <li><a href='./Hotels.html'>Hotels</a></li>
+              <li><a href='./OurTours.html'>Our Tours</a></li>
+              <li><a href='./Destinations.html'>Destinations</a></li>
+              <li><a href='./AboutUs.html'>About Us</a></li> 
+          </ul>
+      </div>
+      <div class="menu2">
+        <ul>
+            <li><a href="./Login.html" Class="button1">Login</a></li>
+        </ul>
+    </div>
+    </header>
+    <div class="container">
+      <form1>
+      <form action="#" method="POST">
+        <div class="input-group">
+          <label for="name">Nom :</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="input-group">
+          <label for="email">Email :</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="input-group">
+          <label for="checkin">Arrivée :</label>
+          <input type="date" id="checkin" name="checkin" required>
+        </div>
+        <div class="input-group">
+          <label for="checkout">Départ :</label>
+          <input type="date" id="checkout" name="checkout" required>
+        </div>
+        <div class="input-group">
+          <label for="roomtype">Type de chambre :</label>
+          <select id="roomtype" name="roomtype" required>
+            <option value="single">Chambre simple</option>
+            <option value="double">Chambre double</option>
+            <option value="suite">Suite</option>
+          </select>
+        </div>
+        <input type="submit" value="Réserver maintenant">
+      </form>
+    </div>
+  </form1>
+  </body>
+</html>
